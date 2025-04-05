@@ -27,9 +27,7 @@ app.get('/', (req, res) => {
 });
 
 // Realizar petición de conexión a mongodb
-mongoose.connect('mongodb://localhost:27017/DB_ColaboraPlus')
-//mongoose.connect('mongodb+srv://AldoMisaelLealPalafox:AldoAtlas20@cluster0.ocypv.mongodb.net/DB_ColaboraPlus1?retryWrites=true&w=majority&appName=Cluster0')
-// mongoose.connect('mongodb+srv://AldoMisaelLealPalafox:AldoAtlas20@cluster0.ocypv.mongodb.net/DB_ColaboraPlus?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://AldoMisaelLealPalafox:AldoAtlas20@cluster0.ocypv.mongodb.net/DB_ColaboraPlus1?retryWrites=true&w=majority&appName=Cluster0')
 .then( () => {
     console.log('Se estableció la conexión a base de datos exitosamente');
     app.listen( 3000, () => {
