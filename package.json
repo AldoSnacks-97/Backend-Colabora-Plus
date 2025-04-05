@@ -15,12 +15,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "expo": "^52.0.42",
     "express": "^5.1.0",
     "mongoose": "^8.13.1",
-    "nodemon": "^3.1.9",
-    "react-dom": "18.3.1",
-    "react-native-web": "~0.19.13",
-    "@expo/metro-runtime": "~4.0.1"
-  } 
+    "nodemon": "^3.1.9"
+  }
 }
