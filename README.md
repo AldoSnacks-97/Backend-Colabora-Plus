@@ -50,27 +50,27 @@ Endpoints de la API
 2. Tareas (/api/tasks)
 
     GET /api/projects/all
-    URL: https://backend-colabora-plus.onrender.com/api/projects/all
+    URL: https://backend-colabora-plus.onrender.com/api/tasks/all
     Método: GET
     Descripción: Obtiene todos los proyectos.
 
     GET /api/projects/byId/:id
-    URL: https://backend-colabora-plus.onrender.com/api/projects/byId/{{id}}
+    URL: https://backend-colabora-plus.onrender.com/api/tasks/byId/{{id}}
     Método: GET
     Descripción: Obtiene un proyecto específico por su ID.
 
     POST /api/projects/add
-    URL: https://backend-colabora-plus.onrender.com/api/projects/add
+    URL: https://backend-colabora-plus.onrender.com/api/tasks/add
     Método: POST
     Descripción: Crea un nuevo proyecto.
 
     PUT /api/projects/update/:id
-    URL: https://backend-colabora-plus.onrender.com/api/projects/update/{{id}}
+    URL: https://backend-colabora-plus.onrender.com/api/tasks/update/{{id}}
     Método: PUT
     Descripción: Actualiza un proyecto específico.
 
     DELETE /api/projects/delete/:id
-    URL: https://backend-colabora-plus.onrender.com/api/projects/delete/{{id}}
+    URL: https://backend-colabora-plus.onrender.com/api/tasks/delete/{{id}}
     Método: DELETE
     Descripción: Elimina un proyecto específico.
    
