@@ -18,92 +18,145 @@ Endpoints de la API
 1. Usuarios (/api/users)
 
     GET /api/users/all
-    Obtiene todos los usuarios registrados.
+    URL: https://backend-colabora-plus.onrender.com/api/users/all
+    Método: GET
+    Descripción: Obtiene todos los usuarios registrados.
 
     GET /api/users/byId/:id
-    Obtiene un usuario específico por su ID.
+    URL: https://backend-colabora-plus.onrender.com/api/users/byId/{{id}}
+    Método: GET
+    Descripción: Obtiene un usuario específico por su ID.
 
     POST /api/users/add
-    Crea un nuevo usuario.
+    URL: https://backend-colabora-plus.onrender.com/api/users/add
+    Método: POST
+    Descripción: Crea un nuevo usuario.
 
     POST /api/users/login
-    Inicia sesión y obtiene un token JWT para autenticación.
+    URL: https://backend-colabora-plus.onrender.com/api/users/login
+    Método: POST
+    Descripción: Inicia sesión
 
     PUT /api/users/update/:id
-    Actualiza la información de un usuario específico.
+    URL: https://backend-colabora-plus.onrender.com/api/users/update/{{id}}
+    Método: PUT
+    Descripción: Actualiza la información de un usuario específico.
 
     DELETE /api/users/delete/:id
-    Elimina un usuario específico.
+    URL: https://backend-colabora-plus.onrender.com/api/users/delete/{{id}}
+    Método: DELETE
+    Descripción: Elimina un usuario específico.
 
 2. Tareas (/api/tasks)
 
-    GET /api/tasks/all
-    Obtiene todas las tareas.
+    GET /api/projects/all
+    URL: https://backend-colabora-plus.onrender.com/api/projects/all
+    Método: GET
+    Descripción: Obtiene todos los proyectos.
 
-    GET /api/tasks/byId/:id
-    Obtiene una tarea específica por su ID.
+    GET /api/projects/byId/:id
+    URL: https://backend-colabora-plus.onrender.com/api/projects/byId/{{id}}
+    Método: GET
+    Descripción: Obtiene un proyecto específico por su ID.
 
-    POST /api/tasks/add
-    Crea una nueva tarea.
+    POST /api/projects/add
+    URL: https://backend-colabora-plus.onrender.com/api/projects/add
+    Método: POST
+    Descripción: Crea un nuevo proyecto.
 
-    PUT /api/tasks/update/:id
-    Actualiza una tarea específica.
+    PUT /api/projects/update/:id
+    URL: https://backend-colabora-plus.onrender.com/api/projects/update/{{id}}
+    Método: PUT
+    Descripción: Actualiza un proyecto específico.
 
-    DELETE /api/tasks/delete/:id
-    Elimina una tarea específica.
-
+    DELETE /api/projects/delete/:id
+    URL: https://backend-colabora-plus.onrender.com/api/projects/delete/{{id}}
+    Método: DELETE
+    Descripción: Elimina un proyecto específico.
+   
 3. Proyectos (/api/projects)
 
     GET /api/projects/all
-    Obtiene todos los proyectos.
-
+    URL: https://backend-colabora-plus.onrender.com/api/projects/all
+    Método: GET
+    Descripción: Obtiene todos los proyectos.
+    
     GET /api/projects/byId/:id
-    Obtiene un proyecto específico por su ID.
-
+    URL: https://backend-colabora-plus.onrender.com/api/projects/byId/{{id}}
+    Método: GET
+    Descripción: Obtiene un proyecto específico por su ID.
+    
     POST /api/projects/add
-    Crea un nuevo proyecto.
-
+    URL: https://backend-colabora-plus.onrender.com/api/projects/add
+    Método: POST
+    Descripción: Crea un nuevo proyecto.
+    
     PUT /api/projects/update/:id
-    Actualiza un proyecto específico.
-
+    URL: https://backend-colabora-plus.onrender.com/api/projects/update/{{id}}
+    Método: PUT
+    Descripción: Actualiza un proyecto específico.
+    
     DELETE /api/projects/delete/:id
-    Elimina un proyecto específico.
+    URL: https://backend-colabora-plus.onrender.com/api/projects/delete/{{id}}
+    Método: DELETE
+    Descripción: Elimina un proyecto específico.
 
 4. Notificaciones (/api/notifications)
 
     GET /api/notifications/all
-    Obtiene todas las notificaciones.
-
+    URL: https://backend-colabora-plus.onrender.com/api/notifications/all
+    Método: GET
+    Descripción: Obtiene todas las notificaciones.
+    
     GET /api/notifications/byUser/:userId
-    Obtiene las notificaciones de un usuario específico.
-
+    URL: https://backend-colabora-plus.onrender.com/api/notifications/byUser/{{userId}}
+    Método: GET
+    Descripción: Obtiene las notificaciones de un usuario específico.
+    
     POST /api/notifications/add
-    Crea una nueva notificación.
-
+    URL: https://backend-colabora-plus.onrender.com/api/notifications/add
+    Método: POST
+    Descripción: Crea una nueva notificación.
+    
     PUT /api/notifications/update/:id
-    Actualiza una notificación específica.
-
+    URL: https://backend-colabora-plus.onrender.com/api/notifications/update/{{id}}
+    Método: PUT
+    Descripción: Actualiza una notificación específica.
+    
     DELETE /api/notifications/delete/:id
-    Elimina una notificación específica.
+    URL: https://backend-colabora-plus.onrender.com/api/notifications/delete/{{id}}
+    Método: DELETE
+    Descripción: Elimina una notificación específica.
 
 5. Eventos de Calendario (/api/calendars)
 
     GET /api/calendars/all
-    Obtiene todos los eventos de calendario.
-
+    URL: https://backend-colabora-plus.onrender.com/api/calendars/all
+    Método: GET
+    Descripción: Obtiene todos los eventos de calendario.
+    
     GET /api/calendars/byUser/:userId
-    Obtiene los eventos de un usuario específico.
-
+    URL: https://backend-colabora-plus.onrender.com/api/calendars/byUser/{{userId}}
+    Método: GET
+    Descripción: Obtiene los eventos de un usuario específico.
+    
     POST /api/calendars/add
-    Crea un nuevo evento de calendario.
-
+    URL: https://backend-colabora-plus.onrender.com/api/calendars/add
+    Método: POST
+    Descripción: Crea un nuevo evento de calendario.
+    
     PUT /api/calendars/update/:id
-    Actualiza un evento de calendario específico.
-
+    URL: https://backend-colabora-plus.onrender.com/api/calendars/update/{{id}}
+    Método: PUT
+    Descripción: Actualiza un evento de calendario específico.
+    
     DELETE /api/calendars/delete/:id
-    Elimina un evento de calendario específico.
+    URL: https://backend-colabora-plus.onrender.com/api/calendars/delete/{{id}}
+    Método: DELETE
+    Descripción: Elimina un evento de calendario específico.
 
 Modelos de Datos
+
 1. Usuario (User)
 
     Nombre: Nombre completo del usuario.
@@ -159,6 +212,7 @@ Modelos de Datos
     Sincronización con Google Calendar: Sincronización con eventos en Google Calendar.
 
 Controladores
+
 1. UserController
 
     Obtener y actualizar el perfil del usuario.
