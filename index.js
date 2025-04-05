@@ -26,11 +26,14 @@ app.get('/', (req, res) => {
   res.send('Bienvenido al servidor de APIs version 1.0.0');
 });
 
+// Realizar petición de conexión a mongodb
 mongoose.connect('mongodb://localhost:27017/DB_ColaboraPlus')
-  .then(() => {
+//mongoose.connect('mongodb+srv://AldoMisaelLealPalafox:AldoAtlas20@cluster0.ocypv.mongodb.net/DB_ColaboraPlus1?retryWrites=true&w=majority&appName=Cluster0')
+// mongoose.connect('mongodb+srv://AldoMisaelLealPalafox:AldoAtlas20@cluster0.ocypv.mongodb.net/DB_ColaboraPlus?retryWrites=true&w=majority&appName=Cluster0')
+.then( () => {
     console.log('Se estableció la conexión a base de datos exitosamente');
-    app.listen(3000, () => {
-      console.log('Servidor trabajando en http://localhost:3000');
+    app.listen( 3000, () => {
+        console.log('Servidor trabajando en el puerto 3000');
     });
-  })
-  .catch(() => console.log('Ocurrió un error en la conexión a la base de datos'));
+})
+.catch( () => console.log('Ocurrió un error en la conexión a la base de datos') );
